@@ -17,19 +17,6 @@ android {
     buildToolsVersion = "35.0.0"
     ndkVersion = "27.0.12077973"
 
-    splits {
-        abi {
-            isEnable = true
-            reset()
-            if (gradle.startParameter.taskNames.any { it.contains("Release") }) {
-                include("arm64-v8a", "x86_64", "armeabi-v7a", "x86")
-                isUniversalApk = true
-            } else {
-                include("arm64-v8a")
-            }
-        }
-    }
-
     val signConfig = signingConfigs.create("release") {
         storeFile = File(projectDir.path + "/keystore/androidkey.jks")
         storePassword = "000000"
