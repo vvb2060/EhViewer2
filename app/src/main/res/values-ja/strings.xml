@@ -385,6 +385,8 @@
     <string name="settings_advanced_read_cache_size">閲覧キャッシュのサイズ</string>
     <string name="settings_advanced_app_language_title">アプリ言語（Language）</string>
     <string name="settings_advanced_proxy">プロキシ</string>
+    <string name="settings_advanced_dns_over_http_title">DNS over HTTPS</string>
+    <string name="settings_advanced_dns_over_http_summary">一部の国で DNS キャッシュポイズニングから守ります</string>
     <string name="settings_advanced_export_data">データをエクスポート</string>
     <string name="settings_advanced_export_data_summary">ダウンロードリストやクイック検索などのデータを外部ストレージにエクスポートします</string>
     <string name="settings_advanced_export_data_to">データを%sにエクスポート</string>
